@@ -1,0 +1,183 @@
+/***** INDEX PAGE *****/
+#index .header-container {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/food-header-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 25%;
+}
+
+#index .header-content {
+    padding-bottom: 55px;
+}
+
+#index .header-user {
+    padding: 20px;
+    display: block;
+    text-align: right;
+    margin-bottom: 18px;
+}
+
+#index .header-user button {
+    background-color: #935118;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 3px;
+    transition: 0.4s;
+}
+
+#index .header-user button:hover {
+    background-color: #c89222;
+}
+
+#index .header-user img {
+    vertical-align: middle;
+    height: 50px;
+}
+
+#index .header-text {
+    color: #ffffff;
+    text-align: center;
+}
+
+#index .header-text img {
+    height: 280px;
+}
+
+#index .header-text h3 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 35px 0;
+}
+
+#index .header-text input[type=text] {
+    font-size: 20px;
+    padding: 10px;
+    width: 290px;
+    transition: 0.3s;
+    letter-spacing: 2px;
+    border: none;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+#index .header-text input[type=text]:focus {
+    width: 450px;
+}
+
+#index .header-text button {
+    background-color: #935118;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+#index .header-text button:hover {
+    background-color: #c89222;
+}
+
+#index .featured-recipes-container {
+    background-color: #eff3f6;
+}
+
+#index .featured-recipes-content {
+    margin: 0 auto;
+    width: 80%;
+    padding: 40px 0 60px 0;
+}
+
+#index .featured-recipes-content h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#index .featured-recipe-flex-container {
+    display: flex;
+}
+
+#index .featured-recipe-flex {
+    flex: 25%;
+}
+
+#index .featured-recipe-flex img {
+    width: 95%;
+    border-radius: 2%;
+}
+
+#index .featured-recipe-flex a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#index .featured-recipe-flex p {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0;
+    padding-top: 40%;
+    transition: 0.4s;
+}
+
+#index .featured-recipe-flex:hover p {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+#index .browse-container {
+    padding: 40px;
+}
+
+#index .browse-container h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+#index .list-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#index .list-container h3 {
+    font-size: 23px;
+    color: #935118;
+    margin: 25px 0 15x 0;
+}
+
+#index .list-flex-container {
+    display: flex;
+}
+
+#index .list-flex {
+    flex: 15%;
+    text-align: center;
+}
+
+#index .list-flex img {
+    width: 95%;
+    border-radius: 4%;
+}
+
+#index .list-flex a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#index .list-flex p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#index .list-container-bottom {
+    padding-top: 30px;
+}
+/***** *****/

@@ -1,0 +1,36 @@
+/***** RECIPES BY TYPE PAGE *****/
+#recipes-type .recipes-type-container {
+    background-color: #ffffff;
+    padding: 70px 0;
+}
+
+#recipes-type .recipes-type-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#recipes-type .recipes-type-content h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+#recipes-type .recipes-type-content span {
+    color: #935118;
+}
+
+#recipes-type .recipes-type-content a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    transition: 0.1s;
+}
+
+#recipes-type .recipes-type-content a:hover {
+    color: #ffb81c;
+}
+
+#recipes-type .recipes-type-content img {
+    border-radius: 2%;
+    width: 100%;
+}
+/***** *****/

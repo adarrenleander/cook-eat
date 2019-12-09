@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', 'HomeController@showIndex');
+Route::get('/search-ingredients', 'IngredientController@showSearchIngredients');
+Route::get('/results-ingredients', 'IngredientController@showResultsIngredients');
+Route::get('/recipes-type', 'FoodController@showRecipesType');
+Route::get('/recipe-details/{id}', 'FoodController@showRecipeDetails');
+Route::get('/premium-account', 'HomeController@showPremiumAccount');
+Route::get('/checkout/{id}', 'RecipeController@showCheckout');

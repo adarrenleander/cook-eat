@@ -1,0 +1,67 @@
+/***** RESULT BY INGREDIENTS PAGE *****/
+#results-ingredients .results-ingredients-container {
+    background-color: #ffffff;
+}
+
+#results-ingredients .results-ingredients-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+#results-ingredients .ingredients-list-container h3 {
+    margin-top: 0;
+}
+
+#results-ingredients .ingredients-list-container ul {
+    margin-bottom: 30px;
+}
+
+#results-ingredients .results-ingredients-content hr {
+    width: 100%;
+    display: block;
+    border: 2px solid #000000;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+#results-ingredients .recipes-results-container h1 {
+    margin: 40px 0 30px 0;
+    font-size: 35px;
+}
+
+#results-ingredients .recipes-flex a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#results-ingredients .recipes-flex .recipe-flex-1 {
+    background-image: url(../images/cuisine/italian/spaghetti-bolognese-square.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 2%;
+}
+
+#results-ingredients .recipes-flex:hover .recipe-flex-1 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/spaghetti-bolognese-square.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+#results-ingredients .recipes-flex .recipe-flex-2 {
+    background-image: url(../images/cuisine/italian/spaghetti-aglio-e-olio-square.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 2%;
+}
+
+#results-ingredients .recipes-flex:hover .recipe-flex-2 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/cuisine/italian/spaghetti-aglio-e-olio-square.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+/***** *****/
