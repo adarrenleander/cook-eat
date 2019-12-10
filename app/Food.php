@@ -10,11 +10,11 @@ class Food extends Model
         return $this->belongsTo('App\FoodType');
     }
 
-    public function recipes() {
-        return $this->hasMany('App\Recipe');
-    }
-
     public function cuisine() {
         return $this->belongsTo('App\Cuisine');
+    }
+
+    public function recipes() {
+        return $this->hasMany('App\Recipe');
     }
 }

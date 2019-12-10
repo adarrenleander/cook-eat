@@ -1,5 +1,5 @@
 @extends('layout.master')
-<link rel="stylesheet" type="text/css" href="{{ asset('css/styles-premium-account.css') }}">
+
 @section('content')
 <div id="premium-account">
     <div class="premium-account-container">
@@ -14,16 +14,16 @@
     <div class="premium-account-content-container">
         <div class="premium-account-content premium-account-text">
             <h3>Why switch over to Premium?</h3>
-            <p>Unlock more than 200 types of cuisine-making guides with flavours that rival high quality restaurants, exclusively only for NeatEat premium members.</p>
+            <p>Unlock more than 200 types of cuisine-making guides with flavours that rival high quality restaurants, exclusively only for Cook&Eat premium members.</p>
         </div>
         <hr>
         <div class="premium-account-content premium-account-text">
             <h3>Benefits</h3>
             <p>Gain access to exclusive content, such as:</p>
             <ul>
-                <li>Video guides</li>
-                <li>Secret recipes & ingredients combinations</li>
-                <li>Downloadable recipe PDF files</li>
+                <li>Special recipes curated by our partner chefs</li>
+                <li>Food delivery discounts</li>
+                <li>Unlimited food searches</li>
                 <li>and many more...</li>
             </ul>
         </div>

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSearchsTable extends Migration
+class CreateSearchesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateSearchsTable extends Migration
      */
     public function up()
     {
-        Schema::create('searchs', function (Blueprint $table) {
-            $table->unsignedBigInteger('ingredient_id');
+        Schema::create('searches', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('name');
             $table->timestamps();
-
-            $table->foreign('ingredient_id')->references('id')->on('Ingredients')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 
@@ -28,6 +27,6 @@ class CreateSearchsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('searchs');
+        Schema::dropIfExists('searches');
     }
 }

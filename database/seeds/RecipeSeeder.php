@@ -12,7 +12,7 @@ class RecipeSeeder extends Seeder
      */
     public function run()
     {
-        // CAESAR SALAD
+        // Caesar Salad
         Recipe::create([
             'food_id' => 1,
             'ingredient_id' => 1,
@@ -85,7 +85,7 @@ class RecipeSeeder extends Seeder
             'quantity' => 1
         ]);
         
-        // BEEF LASAGNA
+        // Beef Lasagna
         Recipe::create([
             'food_id' => 2,
             'ingredient_id' => 13,
@@ -122,7 +122,7 @@ class RecipeSeeder extends Seeder
             'quantity' => 2
         ]);
 
-        // GRILLED STEAK KEBAB
+        // Grilled Steak Kebab
         Recipe::create([
             'food_id' => 3,
             'ingredient_id' => 10,
@@ -217,6 +217,159 @@ class RecipeSeeder extends Seeder
         Recipe::create([
             'food_id' => 4,
             'ingredient_id' => 10,
+            'quantity' => 1
+        ]);
+
+        // Tiramisu
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 27,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 28,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 29,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 30,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 31,
+            'quantity' => 3
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 32,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 33,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 34,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 35,
+            'quantity' => 2
+        ]);
+
+        Recipe::create([
+            'food_id' => 5,
+            'ingredient_id' => 36,
+            'quantity' => 1
+        ]);
+
+        // Potato Gnocchi
+        Recipe::create([
+            'food_id' => 6,
+            'ingredient_id' => 37,
+            'quantity' => 2
+        ]);
+
+        Recipe::create([
+            'food_id' => 6,
+            'ingredient_id' => 38,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 6,
+            'ingredient_id' => 39,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 6,
+            'ingredient_id' => 40,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 6,
+            'ingredient_id' => 30,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 6,
+            'ingredient_id' => 4,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 6,
+            'ingredient_id' => 41,
+            'quantity' => 1
+        ]);
+
+        // Spaghetti Aglio e Olio
+        Recipe::create([
+            'food_id' => 7,
+            'ingredient_id' => 42,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 7,
+            'ingredient_id' => 1,
+            'quantity' => 6
+        ]);
+
+        Recipe::create([
+            'food_id' => 7,
+            'ingredient_id' => 10,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 7,
+            'ingredient_id' => 43,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 7,
+            'ingredient_id' => 8,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 7,
+            'ingredient_id' => 9,
+            'quantity' => 1
+        ]);
+
+        Recipe::create([
+            'food_id' => 7,
+            'ingredient_id' => 44,
+            'quantity' => 2
+        ]);
+
+        Recipe::create([
+            'food_id' => 7,
+            'ingredient_id' => 4,
             'quantity' => 1
         ]);
     }

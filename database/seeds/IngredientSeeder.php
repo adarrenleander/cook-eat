@@ -112,7 +112,7 @@ class IngredientSeeder extends Seeder
 
         // 15
         Ingredient::create([
-            'name' => 'Spaghetti Sauce',
+            'name' => 'Bolognese Sauce',
             'unit' => '315 g',
             'price' => 14500
         ]);
@@ -126,7 +126,7 @@ class IngredientSeeder extends Seeder
 
         // 17
         Ingredient::create([
-            'name' => 'Ricotta',
+            'name' => 'Ricotta Cheese',
             'unit' => '250 g',
             'price' => 59900
         ]);
@@ -192,6 +192,132 @@ class IngredientSeeder extends Seeder
             'name' => 'Dried Thyme',
             'unit' => '27 g',
             'price' => 23000
+        ]);
+
+        // 27
+        Ingredient::create([
+            'name' => 'Eggs',
+            'unit' => '1 carton',
+            'price' => 20000
+        ]);
+
+        // 28
+        Ingredient::create([
+            'name' => 'White Sugar',
+            'unit' => '1 kg',
+            'price' => 12000
+        ]);
+
+        // 29
+        Ingredient::create([
+            'name' => 'Milk',
+            'unit' => '1 carton',
+            'price' => 40000
+        ]);
+
+        // 30
+        Ingredient::create([
+            'name' => 'Whipping Cream',
+            'unit' => '1 liter',
+            'price' => 60000
+        ]);
+
+        // 31
+        Ingredient::create([
+            'name' => 'Vanilla Extract',
+            'unit' => '60 ml',
+            'price' => 10500
+        ]);
+
+        // 32
+        Ingredient::create([
+            'name' => 'Mascarpone Cheese',
+            'unit' => '1 kg',
+            'price' => 90000
+        ]);
+
+        // 33
+        Ingredient::create([
+            'name' => 'Coffee Powder',
+            'unit' => '200 g',
+            'price' => 28600
+        ]);
+
+        // 34
+        Ingredient::create([
+            'name' => 'Rum Syrup',
+            'unit' => '750 ml',
+            'price' => 110000
+        ]);
+
+        // 35
+        Ingredient::create([
+            'name' => 'Ladyfinger Cookies',
+            'unit' => '200 g',
+            'price' => 31000
+        ]);
+
+        // 36
+        Ingredient::create([
+            'name' => 'Cocoa Powder',
+            'unit' => '180 g',
+            'price' => 36000
+        ]);
+
+        // 37
+        Ingredient::create([
+            'name' => 'Potato Gnocchi',
+            'unit' => '500 g',
+            'price' => 185000
+        ]);
+
+        // 38
+        Ingredient::create([
+            'name' => 'Butter',
+            'unit' => '1 packet',
+            'price' => 31500
+        ]);
+
+        // 39
+        Ingredient::create([
+            'name' => 'Shallots',
+            'unit' => '100 g',
+            'price' => 44000
+        ]);
+
+        // 40
+        Ingredient::create([
+            'name' => 'Fontina Cheese',
+            'unit' => '250 g',
+            'price' => 37000
+        ]);
+
+        // 41
+        Ingredient::create([
+            'name' => 'Basil',
+            'unit' => '100 g',
+            'price' => 10000
+        ]);
+
+        // 42
+        Ingredient::create([
+            'name' => 'Spaghetti',
+            'unit' => '1 kg',
+            'price' => 24500
+        ]);
+
+        // 43
+        Ingredient::create([
+            'name' => 'Red Pepper Flakes',
+            'unit' => '45 g',
+            'price' => 15000
+        ]);
+
+        // 44
+        Ingredient::create([
+            'name' => 'Parsley',
+            'unit' => '300 g',
+            'price' => 20000
         ]);
     }
 }

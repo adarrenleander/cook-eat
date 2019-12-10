@@ -1,5 +1,5 @@
 @extends('layout.master')
-<link rel="stylesheet" type="text/css" href="{{ asset('css/styles-recipe-details.css') }}">
+
 @section('content')
 <div id="recipe-details">
     <div class="recipe-details-header" style="background-image: url({{ $food->image }})">
@@ -14,7 +14,7 @@
             <ul>
                 <li>{!! $food->ingredients !!}</li>
             </ul>
-            <a href="/checkout/{{ $food->id }}"><button>Purchase Ingredients</button></a>
+            <a href="/cart/insert/{{ $food->id }}"><button>Purchase Ingredients</button></a>
             <hr>
             <p class="steps">Steps</p>
             <ol>

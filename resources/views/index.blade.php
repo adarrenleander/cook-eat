@@ -1,5 +1,5 @@
 @extends('layout.master')
-<link rel="stylesheet" type="text/css" href="css/styles-index.css">
+
 @section('content')
 <div id="index">
     <div class="header-container">
