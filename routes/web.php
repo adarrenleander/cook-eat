@@ -31,3 +31,7 @@ Route::get('/cart/insert/{id}', 'TransactionController@insertCart');
 Route::get('/cart/remove/{id}', 'TransactionController@removeCart');
 Route::get('/cart/add/{id}', 'TransactionController@addQuantity');
 Route::get('/cart/reduce/{id}', 'TransactionController@reduceQuantity');
+
+Route::get('/checkout', 'TransactionController@showCheckout');
+Route::post('/checkout', 'TransactionController@checkoutItems');
+Route::get('/receipt', 'TransactionController@showReceipt');

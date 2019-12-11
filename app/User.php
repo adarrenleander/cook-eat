@@ -10,6 +10,10 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    public function headerTransactions() {
+        return $this->hasOne('App\HeaderTransaction');
+    }
+
     /**
      * The attributes that are mass assignable.
      *

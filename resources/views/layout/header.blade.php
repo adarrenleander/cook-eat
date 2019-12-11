@@ -10,6 +10,7 @@
         <a href="/search-ingredients"><button>Search by Ingredients</button></a>
     </div>
     <div class="header-right mr-5">
+        <a href="/cart" class="mr-3"><button>CART</button></a>
         <a href="/premium-account"><button>UPGRADE</button></a>
     </div>
 </header>

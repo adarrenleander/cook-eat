@@ -12,7 +12,7 @@
                 </div>
                 <div class="description">
                     <span>{{ $cart->ingredient->name }}</span>
-                    <span class="span-bottom">{{ $cart->ingredient->unit }}</span>
+                    <span class="span-bottom">{{ $cart->ingredient->unit.' @ Rp. '.$cart->ingredient->price }}</span>
                 </div>
                 <div class="quantity">
                     <a href="/cart/reduce/{{ $cart->ingredient_id }}">-</a>
@@ -20,11 +20,15 @@
                     <a href="/cart/add/{{ $cart->ingredient_id }}">+</a>
                 </div>
                 <div class="total">
-                    <p>{{ 'Rp. '.$cart->ingredient->price }}</p>
+                    <p>{{ 'Rp. '.$cart->ingredient->price * $cart->quantity }}</p>
                 </div>
             </div>
             @endforeach
-            <a href="#"><button class="checkout">Checkout</button></a>
+            @if ($carts->isNotEmpty())
+            <a href="/checkout"><button class="btn-checkout">Checkout</button></a>
+            @else
+            <button class="btn-disabled" disabled>Checkout</button>
+            @endif
         </div>
     </div>
 </div>
