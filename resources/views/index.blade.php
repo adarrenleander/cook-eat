@@ -10,7 +10,9 @@
             <div class="header-text">
                 <a href="#"><img src="{{ asset('images/logo/logo3.png') }}" alt="Cook&Eat Logo"></a>
                 <h3>Your one stop solution for all your cooking needs</h3>
-                <input type="text" placeholder="Search Recipes..">
+                <form action="/search-food" method="get">
+                    <input type="text" placeholder="Search Recipes.." name="search" autocomplete="off">
+                </form>
                 <p>OR</p>
                 <a href="/search-ingredients"><button>Search by Ingredients</button></a>
             </div>

@@ -34,11 +34,16 @@ header {
 
 header .header-left {
     float: left;
+    display: flex;
 }
 
 header .header-left a, header .header-left input, header .header-left h2 {
     float: left;
     margin-left: 20px;
+}
+
+header .header-left form {
+    display: flex;
 }
 
 header .header-left img {
@@ -1151,5 +1156,42 @@ footer .copyright i {
 
 #receipt .payment-instructions span {
     font-weight: bold;    
+}
+/***** *****/
+
+/***** SEARCH BY FOOD PAGE *****/
+#search-food .search-food-container {
+    background-color: #ffffff;
+    padding: 70px 0;
+}
+
+#search-food .search-food-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#search-food .search-food-content h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+#search-food .search-food-content span {
+    color: #ffb81c;
+}
+
+#search-food .search-food-content a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    transition: 0.1s;
+}
+
+#search-food .search-food-content a:hover {
+    color: #ffb81c;
+}
+
+#search-food .search-food-content img {
+    border-radius: 2%;
+    width: 100%;
 }
 /***** *****/

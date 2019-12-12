@@ -14,6 +14,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@showIndex');
+
 Route::get('/search-ingredients', 'IngredientController@showSearchIngredients');
 Route::post('/search-ingredients', 'IngredientController@inputIngredient');
 Route::get('/search-ingredients/remove/{id}', 'IngredientController@removeIngredient');
@@ -21,6 +22,8 @@ Route::get('/search-ingredients/remove/{id}', 'IngredientController@removeIngred
 Route::get('/results-ingredients', 'IngredientController@showResultsIngredients');
 
 Route::get('/recipes-type', 'FoodController@showRecipesType');
+
+Route::get('/search-food', 'FoodController@showSearchByFood');
 
 Route::get('/recipe-details/{id}', 'FoodController@showRecipeDetails');
 

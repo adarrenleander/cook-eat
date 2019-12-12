@@ -44,7 +44,7 @@
                     @csrf
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
-                            <input type="text" name="name" value="{{ old('name') }}" placeholder="Name" autocomplete="none">
+                            <input type="text" name="name" value="{{ old('name') }}" placeholder="Name" autocomplete="off">
                             @if ($errors->any())
                             <div class="text-danger text-left">
                                 <p class="font-weight-bold">{{ $errors->first('name') }}</p>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
-                            <input type="text" name="email" value="{{ old('email') }}" placeholder="Email" autocomplete="none">
+                            <input type="text" name="email" value="{{ old('email') }}" placeholder="Email" autocomplete="off">
                             @if ($errors->any())
                             <div class="text-danger text-left">
                                 <p class="font-weight-bold">{{ $errors->first('email') }}</p>
@@ -64,7 +64,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
-                            <input type="text" name="phone" value="{{ old('phone') }}" placeholder="Phone Number" autocomplete="none">
+                            <input type="text" name="phone" value="{{ old('phone') }}" placeholder="Phone Number" autocomplete="off">
                             @if ($errors->any())
                             <div class="text-danger text-left">
                                 <p class="font-weight-bold">{{ $errors->first('phone') }}</p>
@@ -74,7 +74,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
-                            <textarea type="text" name="address" placeholder="Mailing Address" autocomplete="none">{{ old('address') }}</textarea>
+                            <textarea type="text" name="address" placeholder="Mailing Address" autocomplete="off">{{ old('address') }}</textarea>
                             @if ($errors->any())
                             <div class="text-danger text-left">
                                 <p class="font-weight-bold">{{ $errors->first('address') }}</p>

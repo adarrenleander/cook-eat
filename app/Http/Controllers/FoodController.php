@@ -22,4 +22,15 @@ class FoodController extends Controller
 
         return view('recipe_details')->with($data);
     }
+
+    public function showSearchByFood(Request $request) {
+        $search = $request->search;
+
+        $data = [
+            'foods' => Food::where('name', 'like', '%'.$search.'%')->get(),
+            'search' => $search
+        ];
+
+        return view('search_food')->with($data);
+    }
 }
