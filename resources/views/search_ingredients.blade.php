@@ -8,7 +8,7 @@
                 <h1>Search by Ingredients</h1>
                 <form action="/search-ingredients" method="post">
                     @csrf
-                    <input type="text" placeholder="Enter your ingredients.." id="ingredient" name="search" autofocus>
+                    <input type="text" placeholder="Enter your ingredients.." id="ingredient" name="search" autofocus autocomplete="off">
                     <input type="submit" value="Enter">
                 </form>
             </div>
